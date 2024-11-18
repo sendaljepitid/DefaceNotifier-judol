@@ -135,5 +135,16 @@ Untuk menjalankan skrip secara otomatis, tambahkan cron job sebagai berikut:
 ## 6. Notifikasi Telegram
 
 Skrip akan mengirimkan notifikasi ke Telegram jika mendeteksi hasil baru. Pastikan Anda telah mengonfigurasi **Telegram Bot Token** dan **Chat ID** di dalam skrip.
+contoh hasil penggunaan domain `*.ac.id` 
+Fokus pada pelacakan aktivitas terkait defacement situs didaftarkan 
+
+
+Catatan:
+Ubah YOUR_GOOGLE_API_KEY, YOUR_SEARCH_ENGINE_ID, YOUR_TELEGRAM_BOT_TOKEN, dan YOUR_CHAT_ID sesuai dengan kredensial Anda.
+Pastikan server Anda memiliki akses ke API Google dan Telegram.
 
 ---
+
+
+![image](https://github.com/user-attachments/assets/753cc56d-03d2-4a37-aa4b-3a560cd14cef)
+
