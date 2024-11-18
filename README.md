@@ -146,5 +146,6 @@ Pastikan server Anda memiliki akses ke API Google dan Telegram.
 ---
 
 
-![image](https://github.com/user-attachments/assets/753cc56d-03d2-4a37-aa4b-3a560cd14cef)
+
+![judol](https://github.com/user-attachments/assets/dd9d5761-c627-4aee-bd98-8d7fc29adb43)
 
