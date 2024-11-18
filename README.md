@@ -114,34 +114,45 @@ Jika skrip berjalan tanpa error, maka instalasi berhasil.
 
 ---
 
-## 5. Otomasi dengan Cron Job (Opsional)
+## 5. Google API Key dan Custom Search Engine ID
+Langkah Konfigurasi:
+Google API Key dan Custom Search Engine ID
 
-Untuk menjalankan skrip secara otomatis, tambahkan cron job sebagai berikut:
+ - Daftar di Google Developers Console.
+ - Aktifkan Custom Search API.
+ - Buat mesin pencari kustom di Google Custom Search dan ambil Search Engine ID.
 
-1. Buka editor cron:
-   ```bash
-   crontab -e
-   ```
 
-2. Tambahkan perintah berikut untuk menjalankan skrip setiap jam:
-   ```
-   0 * * * * php /var/www/html/defacement_monitor.php
-   ```
+## 6. Telegram Bot
 
-3. Simpan dan keluar dari editor cron.
+- Buat bot Telegram menggunakan BotFather.
+- Dapatkan bot token dan chat ID Anda.
+- Gunakan API Telegram getUpdates untuk mendapatkan chat ID.
 
----
+  
+## 7. Server dan Cron Job
 
-## 6. Notifikasi Telegram
+Simpan skrip ini di server Anda, misalnya defacement_monitor.php.
+Atur cron job untuk menjalankan skrip setiap jam:
+```bash
+
+
+0 * * * * php /path/to/defacement_monitor.php
+
+
+```
+
+Catatan:
+Ubah YOUR_GOOGLE_API_KEY, YOUR_SEARCH_ENGINE_ID, YOUR_TELEGRAM_BOT_TOKEN, dan YOUR_CHAT_ID sesuai dengan kredensial Anda.
+Pastikan server Anda memiliki akses ke API Google dan Telegram.
+
+
+
 
 Skrip akan mengirimkan notifikasi ke Telegram jika mendeteksi hasil baru. Pastikan Anda telah mengonfigurasi **Telegram Bot Token** dan **Chat ID** di dalam skrip.
 contoh hasil penggunaan domain `*.ac.id` 
 Fokus pada pelacakan aktivitas terkait defacement situs didaftarkan 
 
-
-Catatan:
-Ubah YOUR_GOOGLE_API_KEY, YOUR_SEARCH_ENGINE_ID, YOUR_TELEGRAM_BOT_TOKEN, dan YOUR_CHAT_ID sesuai dengan kredensial Anda.
-Pastikan server Anda memiliki akses ke API Google dan Telegram.
 
 ---
 
